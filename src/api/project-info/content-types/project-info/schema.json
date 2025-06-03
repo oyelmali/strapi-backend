@@ -1,0 +1,102 @@
+{
+  "kind": "collectionType",
+  "collectionName": "project_infos",
+  "info": {
+    "singularName": "project-info",
+    "pluralName": "project-infos",
+    "displayName": "project-info",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "projeAdi": {
+      "type": "string",
+      "required": false,
+      "unique": false
+    },
+    "tesisTuru": {
+      "type": "string",
+      "required": false
+    },
+    "lisansDurumu": {
+      "type": "string",
+      "required": false
+    },
+    "kuruluGucMWe": {
+      "type": "decimal"
+    },
+    "kuruluGucMWm": {
+      "type": "decimal"
+    },
+    "isletmedekiGucMWe": {
+      "type": "decimal"
+    },
+    "isletmedekiGucMWm": {
+      "type": "decimal"
+    },
+    "kabulBilgileriYekdemYil": {
+      "type": "integer"
+    },
+    "kapasiteArtisImkani": {
+      "type": "boolean"
+    },
+    "katkiPayiVar": {
+      "type": "boolean"
+    },
+    "katkiPayiMiktar": {
+      "type": "biginteger"
+    },
+    "projeAciklama": {
+      "type": "text"
+    },
+    "kaynakTuru": {
+      "type": "string"
+    },
+    "tesisProjeDurumu": {
+      "type": "string"
+    },
+    "katkiPayiBirim": {
+      "type": "string"
+    },
+    "projeLokasyonuSehir": {
+      "type": "string"
+    },
+    "projeLokasyonuIlce": {
+      "type": "string"
+    },
+    "kabulBilgileriListJson": {
+      "type": "json"
+    },
+    "teaserDosyalar": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "kmzDosyalar": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "fotograflar": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
